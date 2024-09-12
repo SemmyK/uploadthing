@@ -43,6 +43,7 @@ const ImageGallery = () => {
 							className='w-48 h-auto'
 							width={300}
 							height={300}
+							priority
 						/>
 					</div>
 				))}
