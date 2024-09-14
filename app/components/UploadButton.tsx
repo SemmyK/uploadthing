@@ -3,7 +3,7 @@
 import { UploadButton } from '../utils/uploadthing'
 import { useRouter } from 'next/navigation'
 
-const UploadButtonPage = () => {
+const UploadButtonComponent = () => {
 	const router = useRouter()
 
 	return (
@@ -26,4 +26,4 @@ const UploadButtonPage = () => {
 		</article>
 	)
 }
-export default UploadButtonPage
+export default UploadButtonComponent

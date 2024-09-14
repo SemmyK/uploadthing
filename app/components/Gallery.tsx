@@ -16,7 +16,7 @@ const ImageGallery = () => {
 					throw new Error('Failed to fetch images')
 				}
 				const data = await response.json()
-				console.log(data)
+
 				setImages(data.data) // Set fetched image URLs
 				// eslint-disable-next-line @typescript-eslint/no-explicit-any
 			} catch (err: any) {
