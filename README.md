@@ -16,21 +16,17 @@ bun dev
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## App description
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
+Mini app to upload images with Uploadthing API and display them in the gallery
 
 To learn more about Next.js, take a look at the following resources:
+- [Next.js File and folder structure](https://nextjs.org/docs/getting-started/project-structure) - learn about recommended Next.js file and folder structure.
+- [Next.js Fetching](https://nextjs.org/docs/app/building-your-application/data-fetching/fetching) - learn about Next.js best fetching practices.
+- [Next.js Route.ts](https://nextjs.org/docs/app/api-reference/file-conventions/route) - learn about recommended Next.js route file content.
+- [Next.js Config update for images](https://nextjs.org/docs/messages/next-image-unconfigured-host) - learn how to update next.config.js file to accept online images.
+- [Uploadthing API](https://docs.uploadthing.com/api-reference/ut-api) - learn learn how to initialize UTApi.
+- [Uploadthing list of files data](https://docs.uploadthing.com/api-reference/ut-api#listfiles) - learn how to get list of uploaded files data.
+- [Uploadthing list of files urls](https://docs.uploadthing.com/api-reference/ut-api#getfileurls) - learn how to get list of files urls.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
