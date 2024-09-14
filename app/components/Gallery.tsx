@@ -33,14 +33,14 @@ const ImageGallery = () => {
 	if (error) return <p>Error: {error}</p>
 
 	return (
-		<div className='flex flex-wrap gap-2'>
+		<div className='flex flex-wrap gap-4'>
 			{images &&
 				images.map(image => (
 					<div key={image.key}>
 						<Image
 							src={image.url}
 							alt={`Image ${image.key}`}
-							className='w-48 h-auto'
+							className='w-48'
 							width={300}
 							height={300}
 							priority
