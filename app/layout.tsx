@@ -5,7 +5,8 @@ import { ourFileRouter } from './api/uploadthing/core'
 import type { Metadata } from 'next'
 import localFont from 'next/font/local'
 import './globals.css'
-import Link from 'next/link'
+
+import { NavigationBar } from './components/NavigationBar'
 
 const geistSans = localFont({
 	src: './fonts/GeistVF.woff',
@@ -42,20 +43,9 @@ export default function RootLayout({
 					 */
 					routerConfig={extractRouterConfig(ourFileRouter)}
 				/>
-				<nav className='flex justify-center mx-auto  mb-6  shadow-md shadow-gray-500'>
-					<Link
-						href='/gallery'
-						className='block mx-2 my-4 border-2 p-2 rounded'
-					>
-						Gallery
-					</Link>
-					<Link
-						href='/'
-						className='block mx-2 my-4 border-2 p-2 rounded'
-					>
-						Home
-					</Link>
-				</nav>
+				<header>
+					<NavigationBar />
+				</header>
 
 				{children}
 			</body>
